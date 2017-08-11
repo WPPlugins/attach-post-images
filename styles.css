@@ -1,0 +1,61 @@
+/* 
+    Document   : styles.css
+    Created on : Mar 6, 2014, 5:25:08 PM
+    Author     : Cyril Tata
+    Description:
+        Attach post necessary css
+*/
+
+#twp-attach-post-images-list-container {
+	max-height: 230px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#twp-attach-post-images-list {}
+
+#twp-attach-post-images-list li {
+	position: relative;
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin: 0px 3px 3px 0px;
+	background: #000;
+}
+
+#twp-attach-post-images-list li img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#twp-attach-post-images-list li img.portrait{
+	width: 100%;
+	height: auto;
+}
+
+#twp-attach-post-images-list li img.landscape{
+	height: 100%;
+	width: auto;
+}
+
+#twp-attach-post-images-list li a{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: #efefef;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+}
+
